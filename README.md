@@ -95,8 +95,10 @@ has not undergone an independent security audit.
 
 ## Releases and installation
 
-The first proposed release is **v0.1.0-alpha**. Source builds with your own signing
+The first Alpha release is **v0.1.0-alpha**. Source builds with your own signing
 identity are the supported path for physical-device testing. An optional
 `*-unsigned.hap` download is a build artifact, **not a ready-to-install phone
 package**. No universal sideload or AppGallery distribution claim is made.
 See [release notes](docs/RELEASE_NOTES.md) for artifact names and limitations.
+Downloads and checksums are provided on the
+[GitHub prerelease page](https://github.com/october-pig/ente-auth-harmonyos/releases/tag/v0.1.0-alpha).
