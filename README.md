@@ -1,5 +1,7 @@
 # Ente Auth for HarmonyOS
 
+**English** | [简体中文](README.zh-CN.md)
+
 Native ArkTS / ArkUI HarmonyOS port of the open-source Ente Auth client.
 
 **Unofficial community port. Not affiliated with or endorsed by Ente.**
