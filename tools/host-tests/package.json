@@ -1,0 +1,20 @@
+{
+  "name": "ente-auth-harmony-host-tests",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0-alpha",
+  "description": "Host-executable parity harness. Runs the REAL ArkTS production sources under Node (type-stripped) against upstream-derived fixtures.",
+  "dependencies": {
+    "libsodium-wrappers-sumo": "^0.7.15"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node prepare.mjs && node --experimental-transform-types --no-warnings --import ./register.mjs run.mjs",
+    "check:arkts": "node check-arkts.mjs"
+  },
+  "devDependencies": {
+    "typescript": "4.9.5"
+  }
+}

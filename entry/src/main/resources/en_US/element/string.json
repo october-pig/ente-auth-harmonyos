@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Unofficial Ente Auth community port for HarmonyOS. Not affiliated with or endorsed by Ente."
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Unofficial Ente Auth community port for HarmonyOS. Not affiliated with or endorsed by Ente."
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Ente Auth"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "Used to sign in to your Ente account and sync your authenticator codes."
+    }
+  ]
+}

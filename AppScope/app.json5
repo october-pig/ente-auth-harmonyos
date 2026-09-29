@@ -1,0 +1,11 @@
+{
+  "app": {
+    "bundleName": "com.octoberpig.enteauth",
+    "vendor": "october-pig",
+    "versionCode": 1000001,
+    "versionName": "0.1.0-alpha",
+    "buildVersion": "1",
+    "icon": "$media:ente_auth",
+    "label": "$string:app_name"
+  }
+}

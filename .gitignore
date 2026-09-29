@@ -1,0 +1,40 @@
+# Machine-local tools and generated files
+**/node_modules/
+**/oh_modules/
+**/build/
+**/.hvigor/
+**/.cxx/
+**/.test/
+/.idea/
+/local.properties
+/.appanalyzer/
+/.codex/
+/.cache/
+/.upstream/
+/compile_commands.json
+/tools/host-tests/gen/
+*.log
+*.hap
+*.app
+*.hqf
+
+# Never include credentials, debug profiles or device data
+/signing/
+*.p12
+*.pfx
+*.p7b
+*.cer
+*.csr
+*.pem
+*.key
+*.keystore
+*.jks
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# Synthetic test vectors under entry/src/test/fixtures are intentionally tracked.
+# DevEco edits build-profile.json5 when configuring signing: review before staging.

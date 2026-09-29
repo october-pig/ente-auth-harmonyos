@@ -1,0 +1,36 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#000000"
+    },
+    {
+      "name": "accent",
+      "value": "#C5ACFF"
+    },
+    {
+      "name": "on_accent",
+      "value": "#241047"
+    },
+    {
+      "name": "accent_surface",
+      "value": "#34254B"
+    },
+    {
+      "name": "warning",
+      "value": "#EDC36A"
+    },
+    {
+      "name": "danger",
+      "value": "#FFB3B8"
+    },
+    {
+      "name": "page",
+      "value": "#121214"
+    },
+    {
+      "name": "surface",
+      "value": "#252528"
+    }
+  ]
+}

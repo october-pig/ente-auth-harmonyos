@@ -1,0 +1,47 @@
+# Normalise line endings in the repository.
+#
+# This matters for correctness, not just tidiness: tools/host-tests/prepare.mjs
+# copies production .ets sources to generated .ts files and verifies they are
+# byte-identical (sha256) to the originals. A CRLF rewrite on checkout would
+# break that check and could alter the crypto fixture vectors.
+#
+# The repository stores LF. Windows working copies also get LF for the file
+# types below so hashes stay stable across platforms.
+
+* text=auto eol=lf
+
+# Native sources and build files
+*.c            text eol=lf
+*.h            text eol=lf
+*.cpp          text eol=lf
+*.cc           text eol=lf
+*.txt          text eol=lf
+CMakeLists.txt text eol=lf
+
+# ArkTS / TS / JS
+*.ets          text eol=lf
+*.ts           text eol=lf
+*.mjs          text eol=lf
+*.js           text eol=lf
+
+# Data / config
+*.json         text eol=lf
+*.json5        text eol=lf
+*.md           text eol=lf
+*.dart         text eol=lf
+
+# Windows-only helper scripts keep CRLF
+*.bat          text eol=crlf
+*.cmd          text eol=crlf
+
+# Binary assets must never be touched
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.webp         binary
+*.so           binary
+*.a            binary
+*.hap          binary
+*.app          binary
+*.p12          binary
+*.pfx          binary

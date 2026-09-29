@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "非官方 Ente Auth HarmonyOS 社区移植版，与 Ente 无隶属关系或背书关系。"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "非官方 Ente Auth HarmonyOS 社区移植版，与 Ente 无隶属关系或背书关系。"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Ente Auth"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "用于登录 Ente 账户并同步你的验证码。"
+    }
+  ]
+}

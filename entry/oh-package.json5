@@ -1,0 +1,10 @@
+{
+  "name": "entry",
+  "version": "0.1.0-alpha",
+  "description": "Ente Auth for HarmonyOS entry module (ArkTS/ArkUI UI, sync, OTP core, native crypto bridge).",
+  "main": "",
+  "author": "october-pig",
+  "license": "AGPL-3.0",
+  "dependencies": {}
+}
+
